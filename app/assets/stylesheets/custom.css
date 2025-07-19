@@ -1,0 +1,20 @@
+.article-card {
+    background-color: #375546;
+    color: white;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+.article-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.article-btn{
+    background-color: #375546;
+    color: white;
+}
+.article-heading{
+    color: #375546;
+    font-size: 45px;
+}

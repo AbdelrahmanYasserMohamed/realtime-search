@@ -46,6 +46,15 @@ safelist: [
   },
   {
     pattern: /^duration-[0-9]{2,4}$/,
+  },
+  {
+    pattern: /^grid-cols-[1-9]$/,
+  },
+  {
+    pattern: /^grid$/,
+  },
+  {
+    pattern: /^gap-[0-9]{1,2}$/,
   }
 ],
   theme: {

@@ -1,17 +1,19 @@
-<h1 class="text-2xl font-bold mb-4">New Article</h1>
+<h1 class="font-bold mb-6 md:mb-0 article-heading">New Article</h1>
 
 <%= form_with model: @article, local: true do |form| %>
-  <div class="mb-4">
+  <div class="mb-4 mt-6">
     <%= form.label :title, class: "block font-medium mb-1" %>
-    <%= form.text_field :title, class: "form-input block w-full border rounded p-2" %>
+    <%= form.text_field :title, class: "form-input block w-full px-4 py-2 text-xl font-normal   rounded m-0 f  focus:border-green-600" %>
   </div>
 
   <div class="mb-4">
     <%= form.label :content, class: "block font-medium mb-1" %>
-    <%= form.text_area :content, class: "form-input block w-full border rounded p-2" %>
+    <%= form.text_area :content, class: "form-input block w-full px-4 py-2 text-xl font-normal   rounded m-0 f  focus:border-green-600" %>
   </div>
 
-  <%= form.submit "Create Article", class: "px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600" %>
+  <%= form.submit "Create Article", class: "text-white px-3 py-2 rounded article-btn " %>
 <% end %>
 
-<%= link_to "Back to Articles", articles_path, class: "text-blue-500 hover:underline mt-3 inline-block" %>
+<div class="mt-6">
+  <%= link_to "Back to Articles", articles_path, class: "text-white px-3 py-2 rounded article-btn " %>
+</div>
