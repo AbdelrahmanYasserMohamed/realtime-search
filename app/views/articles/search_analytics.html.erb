@@ -1,0 +1,15 @@
+<h1 class="text-2xl font-bold mb-4">Your Search History</h1>
+
+<% if @search_queries.any? %>
+  <ul class="space-y-2">
+    <% @search_queries.each do |query| %>
+      <li class="p-2 border rounded shadow-sm bg-white">
+        <strong>Query:</strong> <%= query.query %> <br>
+        s<strong>Last Updated:</strong> <%= query.last_updated.strftime("%Y-%m-%d %H:%M:%S") %>
+        <p><strong>Times Searched:</strong> <%= query.count %></p>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>You have no search history yet.</p>
+<% end %>

@@ -7,3 +7,11 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Article.create([
+  { title: 'What is a good car', content: 'Lorem ipsum...' },
+  { title: 'How is Emil Hajric doing', content: 'Some content...' },
+  { title: 'Best electric cars 2025', content: 'Details...' },
+  { title: 'What is a good car', content: 'Lorem ipsum...' },
+  { title: 'How is Emil Hajric doing', content: 'Some content...' },
+  { title: 'Best electric cars 2025', content: 'Details...' },
+])

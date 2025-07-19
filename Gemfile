@@ -48,6 +48,8 @@ gem "bootsnap", require: false
 # Generate dummy data
 gem 'faker', '~> 3.2', '>= 3.2.2'
 
+gem 'rspec-rails'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
