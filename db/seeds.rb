@@ -15,3 +15,5 @@ require 'faker'
     content: Faker::Lorem.paragraph(sentence_count: 3)
   )
 end
+
+puts "✅ Seeded 100 articles!"
