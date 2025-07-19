@@ -13,7 +13,9 @@ Ruby on rails application for real-time-search ruby "3.2.2" , rails "7.0.8"
  
  - PostgreSQL database for persistence.
 
- - Using RSpec to test different scenarios for search 
+ - Using RSpec to test different scenarios for search
+
+ - Solve pyramid problem by efficiently tracking user search behavior to avoid duplicate or unnecessary records in the analytics
 
  # 🚀 Live Demo
  https://realtime-search-production.up.railway.app/
