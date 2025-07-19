@@ -83,4 +83,4 @@ production:
   <<: *default
   database: realtime_search_box_project_production
   username: realtime_search_box_project
-  password: <%= ENV["REALTIME_SEARCH_BOX_DATABASE_PASSWORD"] %>
+  password: <%= ENV["REALTIME_SEARCH_BOX_PROJECT_DATABASE_PASSWORD"] %>
