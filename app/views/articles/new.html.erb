@@ -3,12 +3,12 @@
 <%= form_with model: @article, local: true do |form| %>
   <div class="mb-4 mt-6">
     <%= form.label :title, class: "block font-medium mb-1" %>
-    <%= form.text_field :title, class: "form-input block w-full px-4 py-2 text-xl font-normal   rounded m-0 f  focus:border-green-600" %>
+    <%= form.text_field :title, class: "form-input block w-full px-4 py-2 text-xl font-normal   rounded m-0 f  focus:border-[#3ca367] focus:ring-[#3ca367] focus:ring-1" %>
   </div>
 
   <div class="mb-4">
     <%= form.label :content, class: "block font-medium mb-1" %>
-    <%= form.text_area :content, class: "form-input block w-full px-4 py-2 text-xl font-normal   rounded m-0 f  focus:border-green-600" %>
+    <%= form.text_area :content, class: "form-input block w-full px-4 py-2 text-xl font-normal   rounded m-0 f  focus:border-[#3ca367] focus:ring-[#3ca367] focus:ring-1" %>
   </div>
 
   <%= form.submit "Create Article", class: "text-white px-3 py-2 rounded article-btn " %>

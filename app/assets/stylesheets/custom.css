@@ -1,20 +1,107 @@
 .article-card {
-    background-color: #375546;
-    color: white;
+    background-color: #a8d5b5;
+    border-radius: 20px;
     width: 100%;
-    border-radius: 0.5rem;
-    margin-top: 20px;
-    padding: 15px 20px;
+    margin: 20px auto; /* Centers the card horizontally */
+    text-align: center;
+    padding: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-.article-title{
+.card-header {
+    padding: 10px;
+}
+
+.article-title {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
+    color: #1e1e1e;
 }
+
+.divider {
+    border: none;
+    border-top: 1px solid #3ca367;
+    width: 40%;
+    margin: 0 auto;
+    padding: 9px;
+}
+
+.article-content{
+    width: 73%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    height: 230px;
+    overflow: hidden;
+}
+.card-content {
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    padding: 32px;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px; 
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #c1e3ce;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    z-index: 2;
+    font-size: 18px;
+    color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #3ca367 ;
+}
+
+.arrow-down {
+     width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #a8d5b5;
+    margin: 0 auto;
+    position: relative;
+    top: 11px;
+    z-index: 1;
+}
+
+.navbar-head{
+    background-color:#3ca367 ;
+}
+
+.nav-root{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-btn{
+    font-size: 20px;
+}
+
+.nav-btn:hover{
+  background-color : #a8d5b5;
+}
+
 .article-btn{
-    background-color: #375546;
+    background-color: #3ca367;
     color: white;
 }
+
 .article-heading{
-    color: #375546;
+    color: #3ca367;
     font-size: 45px;
+    border-bottom: 1px solid;
+    width: 25%;
 }

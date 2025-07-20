@@ -8,11 +8,12 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 require 'faker'
-
+Article.destroy_all
+SearchQuery.destroy_all
 100.times do
   Article.create!(
     title: Faker::Book.title,
-    content: Faker::Lorem.paragraph(sentence_count: 3)
+    content: Faker::Lorem.paragraph(sentence_count: 7)
   )
 end
 

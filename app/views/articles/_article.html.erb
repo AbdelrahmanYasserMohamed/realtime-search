@@ -1,8 +1,13 @@
-<div id="<%= dom_id article %>" class=" article-card shadow-md rounded-lg">
-  <p class="mb-3">
-    <div class="block font-medium mb-1 article-title"><%= article.title %></div>
-  </p>
-  <p class="mb-3">
-    <div class="block font-medium mb-1 article-content"><%= article.content %></div>
-  </p>
+<div id="<%= dom_id article %>" class="article-card shadow-md rounded-lg mx-auto">
+  <div class="icon-circle">
+    <i class="fas fa-book"></i>
+  </div>
+  <div class="card-header">
+    <h2 class="article-title"><%= article.title %></h2>
+    <hr class="divider">
+    <div class="arrow-down"></div>
+  <div class="card-content">
+    <p class="article-content"><%= article.content %></p>
+  </div>
+  </div>
 </div>
