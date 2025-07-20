@@ -17,4 +17,5 @@ SearchQuery.destroy_all
   )
 end
 
+
 puts "✅ Seeded 100 articles!"
