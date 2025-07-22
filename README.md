@@ -33,6 +33,9 @@ rails db:migrate
 rails db:seed
 
 rails s
+
+to test rspec
+bundle exec rspec
 ```
 
   
